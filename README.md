@@ -7,7 +7,7 @@ runs anywhere, saves your tasks between sessions, linked list realness, no depen
 ### features i’m proud of:
 - add / view / edit / delete / complete tasks  
 - auto-saves to `tasks.txt` (pipe format, very demure)  
-- works on windows, linux, mac — i got u bby  
+- works on windows, linux, mac
 - memory leak? never heard of her (frees everything on exit)  
 
 ### compile & run (so easy)
@@ -16,3 +16,4 @@ gcc -o todo todo.c
 ./todo          # linux/mac
 
 todo.exe        # windows
+
