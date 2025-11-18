@@ -1,8 +1,8 @@
 # C To-Do List Manager ✨  
 **by CipherS88**  
 
-yo~ a super clean, kinda cute but still functional console to-do app i wrote in pure C ♡  
-runs anywhere, saves your tasks between sessions, linked list realness, no dependencies — just vibes and pointers (˶ᵔ ᵕ ᵔ˶)
+yo~ a super clean, kinda cute but still functional console todo app i wrote in pure C ♡  
+runs anywhere, saves your tasks between sessions, linked list realness, no dependencies just vibes and pointers (˶ᵔ ᵕ ᵔ˶)
 
 ### features i’m proud of:
 - add / view / edit / delete / complete tasks  
@@ -14,4 +14,5 @@ runs anywhere, saves your tasks between sessions, linked list realness, no depen
 ```bash
 gcc -o todo todo.c
 ./todo          # linux/mac
+
 todo.exe        # windows
