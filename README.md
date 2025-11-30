@@ -1,19 +1,35 @@
-# C To-Do List Manager ✨  
-**by CipherS88**  
+<div align="center">
 
-yo~ a super clean, kinda cute but still functional console todo app i wrote in pure C ♡  
-runs anywhere, saves your tasks between sessions, linked list realness, no dependencies just vibes and pointers (˶ᵔ ᵕ ᵔ˶)
+# ✨ C To-Do List Manager ✨
+### *by CipherS88*
 
-### features i’m proud of:
-- add / view / edit / delete / complete tasks  
-- auto-saves to `tasks.txt` (pipe format, very demure)  
-- works on windows, linux, mac
-- memory leak? never heard of her (frees everything on exit)  
+<br>
 
-### compile & run (so easy)
+> *Yo~ a super clean, kinda cute but still functional console todo app written in pure C ♡*
+
+<br>
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) 
+![Vibes](https://img.shields.io/badge/Vibes-Immaculate-pink?style=for-the-badge)
+
+</div>
+
+---
+
+## ☁️ About
+This runs anywhere, saves your tasks between sessions, and serves **linked list realness**. No dependencies, just vibes and pointers (˶ᵔ ᵕ ᵔ˶).
+
+### ✨ Features I’m Proud Of
+* 📝 **Task Management:** Add, view, edit, delete, and complete tasks easily.
+* 💾 **Auto-Save:** Saves to `tasks.txt` automatically (*pipe format, very demure*).
+* 💻 **Cross-Platform:** Works seamlessly on Windows, Linux, and Mac.
+* 🧹 **Clean Memory:** Memory leak? Never heard of her. (We free everything on exit).
+
+---
+
+## 🌸 Compile & Run
+It's super easy to get started! Just use your standard GCC compiler.
+
+**1. Compile the code:**
 ```bash
 gcc -o todo todo.c
-./todo          # linux/mac
-
-todo.exe        # windows
-
