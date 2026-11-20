@@ -1,35 +1,72 @@
 <div align="center">
 
-# ✨ C To-Do List Manager ✨
-### *by CipherS88*
+# ✨ C To-Do List Manager
 
-<br>
+### *Linked lists, pointers, and a surprisingly cute terminal*
 
-> *Yo~ a super clean, kinda cute but still functional console todo app written in pure C ♡*
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Deps](https://img.shields.io/badge/Dependencies-none-3fb950?style=for-the-badge)
+![Vibes](https://img.shields.io/badge/Vibes-Immaculate-ff8ab3?style=for-the-badge)
 
-<br>
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) 
-![Vibes](https://img.shields.io/badge/Vibes-Immaculate-pink?style=for-the-badge)
+> *A console todo app in pure C: saves between sessions, runs anywhere, and frees everything on exit.*
 
 </div>
 
 ---
 
 ## ☁️ About
-This runs anywhere, saves your tasks between sessions, and serves **linked list realness**. No dependencies, just vibes and pointers (˶ᵔ ᵕ ᵔ˶).
 
-### ✨ Features I’m Proud Of
-* 📝 **Task Management:** Add, view, edit, delete, and complete tasks easily.
-* 💾 **Auto-Save:** Saves to `tasks.txt` automatically (*pipe format, very demure*).
-* 💻 **Cross-Platform:** Works seamlessly on Windows, Linux, and Mac.
-* 🧹 **Clean Memory:** Memory leak? Never heard of her. (We free everything on exit).
+No dependencies, just vibes and pointers. Tasks live in a linked list in memory and are written to `tasks.txt` in a simple pipe-separated format, so the file stays readable and diffable.
 
 ---
 
-## 🌸 Compile & Run
-It's super easy to get started! Just use your standard GCC compiler.
+## ✨ Features
 
-**1. Compile the code:**
+- 📝 **Task management** — add, view, edit, delete and complete tasks.
+- 💾 **Auto-save** — writes to `tasks.txt` automatically.
+- 💻 **Cross-platform** — Windows, Linux and macOS with the same source.
+- 🧹 **Clean memory** — every node is freed on exit, no leaks left behind.
+
+---
+
+## 🌸 Compile & run
+
+**1. Compile:**
+
 ```bash
 gcc -o todo todo.c
+```
+
+**2. Run:**
+
+```bash
+./todo          # Linux / macOS
+todo.exe        # Windows
+```
+
+That's it — no flags, no config, no build system.
+
+---
+
+## 📂 Layout
+
+```text
+todo.c        الكود الكامل (قائمة مرتبطة + قائمة الترمينال)
+doc.html      التوثيق المرئي للمشروع
+tasks.txt     يُنشأ تلقائيًا عند أول حفظ
+```
+
+---
+
+## 🧠 Notes
+
+- الملف يُنشأ في نفس مجلد التشغيل — شغّل البرنامج من المجلد الذي تريد الحفظ فيه.
+- الصيغة أنبوبية (`title|done|id`)، لذلك يمكن تعديل الملف يدويًا بدون كسر البرنامج.
+
+---
+
+<div align="center">
+
+<sub>Built by <b>Abdullah Aljuaid</b> · <a href="https://github.com/CipherS88">@CipherS88</a></sub>
+
+</div>
